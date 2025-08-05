@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="clockBackgroundColor" format="color" />
+        <attr name="clockHandColor" format="color" />
+        <attr name="digitColor" format="color" />
+        <attr name="clockShape" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+        <attr name="digitSize" format="dimension" />
+    </declare-styleable>
+</resources>
